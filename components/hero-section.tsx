@@ -6,7 +6,7 @@ import { ArrowRight, Play } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-background to-muted animate-fade-in">
-      <div className="container mx-auto px-4 py-20 lg:py-32">
+      <div className="max-w-7xl mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8 animate-slide-right">
